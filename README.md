@@ -1,5 +1,5 @@
 
-# 🍽️ Zomato Restaurant Data Analysis
+# 🍽️ Zomato Sales Data Analysis
 
 ![zomato_logo](https://github.com/saicharannetha/zomato-data-analysis/blob/main/zomato.jpg)
 
