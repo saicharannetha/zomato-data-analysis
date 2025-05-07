@@ -4,70 +4,106 @@
 ![zomato_logo](https://github.com/saicharannetha/zomato-data-analysis/blob/main/zomato.jpg)
 
 
-## 🎯 Project Objectives
-The primary aim was to transform raw data into business intelligence using effective data modeling, time-series tracking, and service pattern discovery. Specific goals included:
 
-Creating foundational tables like a calendar table and country mapping table to support dynamic filtering.
+## 🚀 Overview
 
-Analyzing restaurant growth across different time dimensions (year, quarter, month).
+This project presents a comprehensive **Restaurant Sales Analytics Dashboard** built using **Power BI**, **SQL**, and **Power Query**, focusing on restaurant data sourced from Zomato. The dashboard uncovers trends in **restaurant growth**, **service availability**, **pricing segmentation**, and **geographical distribution**. It enables food industry stakeholders to make strategic, data-informed decisions through visually rich analytics.
 
-Segmenting data based on ratings, pricing, cuisine types, and service availability (e.g., online delivery, table booking).
+---
 
-Enhancing decision-making with visuals showing the geographical spread and service models of restaurants.
-## 🧰 Tools & Technologies
-SQL: Used to perform initial data exploration, joins, aggregations, and conditional logic to answer real-world queries.
+## 📅 Dataset
 
-Power BI: Built an interactive dashboard with slicers, cards, charts, and maps to present insights in a business-friendly manner.
+The dataset used in this project includes the following key fields:
 
-DAX: Implemented calculated columns and measures for advanced time-based metrics and conditional KPIs.
+- **Restaurant Name**: Name of the restaurant
+- **City & Country**: Geographical location
+- **Average Cost for Two**: Average price range for two people
+- **Cuisines**: Types of cuisines served
+- **Aggregate Rating**: Average customer rating
+- **Has Online Delivery**: Availability of online ordering
+- **Has Table Booking**: Availability of table reservation
+- **Opening Date**: Date of restaurant registration or listing
 
-Power Query: Handled missing values, reformatted columns, and created a clean, analysis-ready dataset.
+---
+
+## 🛠 Features
+
+### 🧠 Key Analyses
+
+1. **📆 Time-Series Growth Tracking**
+   - Analyze the number of restaurant openings by **year**, **quarter**, and **month**
+   - Understand business expansion patterns and seasonality
+   - Identify key time periods of restaurant growth
+
+2. **🌍 Geographical Distribution**
+   - Visualize the spread of restaurants by **city** and **country**
+   - Evaluate market saturation and expansion opportunities
+   - Compare growth across regions using maps and bar charts
+
+3. **⭐ Rating & Pricing Segmentation**
+   - Group restaurants by **customer ratings** and **price ranges**
+   - Identify top-rated or budget-friendly regions and cuisines
+   - Discover rating trends over time
+
+4. **📦 Service Feature Analysis**
+   - Analyze the proportion of restaurants offering **online delivery** and **table booking**
+   - Assess how service features vary by region and price
+   - Understand consumer demand for specific dining services
+
+5. **🍱 Cuisine Trends**
+   - Identify the **most popular cuisines** and their average ratings
+   - Track regional cuisine preferences
+   - Compare cuisine availability across pricing categories
+
+---
+
+## 📈 Power BI Dashboard
+
+The Power BI dashboard delivers interactive and dynamic insights:
+
+- 📅 **Calendar Table**: Enables time intelligence filters (YTD, QTD, MTD)
+- 💸 **Price Bucketing**: Segments restaurants by average cost for meaningful comparison
+- 🌐 **Geo Maps**: Show city- and country-wise restaurant distribution
+- 🔄 **Slicers & Filters**: Enable drilldowns by rating, price, location, cuisine, and features
+- 📊 **Charts & Cards**: Highlight KPIs like total restaurants, average rating, cost trends, and service adoption
+
+---
+
+## 🧑‍💻 Skills Demonstrated
+
+- **SQL**: Advanced queries for joins, aggregations, and segmentation
+- **Power BI**: Dashboard development with DAX, custom visuals, and interactivity
+- **Data Modeling**: Built relationships across tables like calendar, location, and restaurant data
+- **Power Query**: Data cleaning, transformation, and normalization
+
+---
+
 ## 💡 Business Impact & Applications
-This project is ideal for:
 
-Food aggregators and delivery platforms (like Zomato or Swiggy) seeking expansion strategies.
+This project provides critical insights for:
 
-Restaurant owners and marketers evaluating city-wise demand and competition.
+- 🛵 **Food Aggregators** (e.g., Zomato, Swiggy): Optimize expansion and feature rollout
+- 👨‍🍳 **Restaurant Owners & Marketers**: Identify demand zones and set pricing strategies
+- 🧠 **Analysts & Planners**: Study consumer behavior and regional performance
+- 💼 **Investors & Strategists**: Assess market potential by geography, price, and service feature
 
-Analysts wanting to understand consumer trends in the restaurant industry.
+### Supported Business Decisions:
 
-Investors or stakeholders assessing the viability of new locations or business models.
+- 📍 Market Entry Strategy by City or Country
+- 💲 Competitive Pricing & Cuisine Offering
+- 🛒 Delivery and Booking Service Optimization
 
-Key decisions supported:
+---
 
-Market entry strategy based on city demand
+## 📎 Use Case Summary
 
-Optimizing pricing and cuisine offerings
+📌 This dashboard is ideal for showcasing skills in:
 
-Evaluating feature adoption (online delivery/table booking)
-## 📈 Key Features & Insights
-✅ SQL-Based Analysis:
-Extracted and cleaned data to find:
+- **Sales Analytics** and segmentation 📈  
+- **Business Intelligence** and storytelling with data 💬  
+- **Interactive Reporting** using Power BI and SQL 🔍  
+- **Real-world restaurant industry use cases** 🍽️
 
-Number of restaurants by city and country
+---
 
-Yearly, quarterly, and monthly openings
-
-Distribution based on ratings and pricing
-
-Restaurants offering online delivery or table booking
-
-📊 Power BI Dashboard Highlights:
-Calendar Table & Time Intelligence: Custom calendar with financial months, quarters, and year-month views
-
-Dynamic Bucketing: Restaurants grouped by average price range
-
-Location-Based Insights: City- and country-level distribution maps
-
-Service Feature Analytics: % of restaurants with online delivery & table booking
-
-Cuisine Trends: Top cuisines visualized by frequency and rating
-
-📌 KPIs and Metrics:
-Total restaurants by region and time period
-
-Average cost per meal and rating trends
-
-Restaurant service distribution (delivery, booking)
-
-Rating buckets and pricing category comparison
+Feel free to explore the project and contribute! ✨
